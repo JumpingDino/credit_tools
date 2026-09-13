@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ad4e1e45-29ba-4bf5-917d-5f149e4469d5
+  title: credit_tools
+  description: Out-of-the-box credit functionalities
+  authors:
+    - name: Rafael Saraiva
+  github: https://github.com/JumpingDino/credit_tools
+  toc:
+    - file: docs/index.ipynb
+    - title: Examples
+      children:
+        - file: docs/examples/rating.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
